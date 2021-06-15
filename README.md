@@ -1,10 +1,25 @@
-# Data analysis
-- Document here the project: SafeSeizure
-- Description: Project Description
-- Data Source:
-- Type of analysis:
+# Safe Seizure
 
-Please document the project the better you can.
+Safe Seizure is a machine/deep learning model aiming to predict brain seizures based on intracranial EEGs (Electro Encephalograms) from epileptic human patients.
+Being able to predict brain seizures may give epileptic patients enough time to safely anticipate their next seizure, potentially avoiding life-threatening consequences.
+
+# Data
+
+The data is sourced from the American Epilepsy Society Seizure Prediction Challenge on Kaggle: https://www.kaggle.com/c/seizure-prediction/data.
+The raw data consists of two folders Patient_1 and Patient_2 each containing ~260 EEGs in .mat format (MatLab formatted files).
+
+Each folder contains three types of EEGs:
+* Interictal EEGs, corresponding to a non_seizure signal
+* Preictal EEGs, corresponding to a pre-seizure signal (recorded from 65 minutes before a seizure occurred)
+* Test EEGs, corresponding to the unlabelled test set of either preictal or interictal sequences.
+
+<img src="images/kaggle_data.png"/>
+
+# Goal of project
+
+The first objective of this project is to accurately classify EEG sequences as being interictal OR preictal, therefore determining whether a seizure will occur within the next 5 to 65 mins.
+
+An additional objective would be to identify how close to a seizure a patient is by narrowing down the anticipation time range.
 
 # Startup the project
 
