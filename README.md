@@ -10,10 +10,15 @@ The raw data consists of two folders Patient_1 and Patient_2 each containing ~26
 
 Each folder contains three types of EEGs:
 * Interictal EEGs, corresponding to a non_seizure signal
-* Preictal EEGs, corresponding to a pre-seizure signal (recorded from 65 minutes before a seizure occurred)
+* Preictal EEGs, corresponding to a pre-seizure signal (recorded from 65 minutes before a seizure occurred, see image below)
 * Test EEGs, corresponding to the unlabelled test set of either preictal or interictal sequences.
 
-<img src="images/kaggle_data.png" width="800" height="600"/>
+<p align="center">
+<img src="images/kaggle_data.png" width="600" height="350"/>
+<p/>
+
+<p align="center">Blue signal: Preictal sequence; Red signal: Ictal sequence (actual seizure)</p>
+<p align="center">Image credits: American Epilepsy Society Seizure Prediction Challenge</p>
 
 # Goal of project
 
