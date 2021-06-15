@@ -13,7 +13,7 @@ Each folder contains three types of EEGs:
 * Preictal EEGs, corresponding to a pre-seizure signal (recorded from 65 minutes before a seizure occurred)
 * Test EEGs, corresponding to the unlabelled test set of either preictal or interictal sequences.
 
-<img src="images/kaggle_data.png"/>
+<img src="images/kaggle_data.png" style="width:100px;height:70px;"/>
 
 # Goal of project
 
