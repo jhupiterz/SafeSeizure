@@ -5,6 +5,13 @@ Being able to predict brain seizures may give epileptic patients enough time to 
 
 Link to presentation -> https://www.canva.com/design/DAEiSbS_shA/c0jf8B3lhZuVd2dsCCBNOA/view?utm_content=DAEiSbS_shA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
+
+# Goal of project
+
+The first objective of this project is to accurately classify EEG sequences as being interictal OR preictal, therefore determining whether a seizure will occur within the next 5 to 65 mins.
+
+An additional objective would be to identify how close to a seizure a patient is by narrowing down the anticipation time range.
+
 # Data
 
 The data is sourced from the American Epilepsy Society Seizure Prediction Challenge on Kaggle: https://www.kaggle.com/c/seizure-prediction/data.
@@ -22,11 +29,18 @@ Each folder contains three types of EEGs:
 <p align="center">Blue signal: Preictal sequence; Red signal: Ictal sequence (actual seizure)</p>
 <p align="center">Image credits: American Epilepsy Society Seizure Prediction Challenge</p>
 
-# Goal of project
+# Methodologies
 
-The first objective of this project is to accurately classify EEG sequences as being interictal OR preictal, therefore determining whether a seizure will occur within the next 5 to 65 mins.
+## Machine Learning
 
-An additional objective would be to identify how close to a seizure a patient is by narrowing down the anticipation time range.
+The first methodology used is machine-leanring based, following Al-Qerem et al. 2020 (https://arxiv.org/pdf/2102.01647.pdf)
+
+Sequence:
+
+(1) Independent Component Analysis (using `FastICA`)
+(2) Discrete Wavelet Transform (using `pywvt`)
+(3) Feature extraction: `mean`, `average power`, `mean absolute value`, `Shannon entropy`
+(4) Regression
 
 # Startup the project
 
