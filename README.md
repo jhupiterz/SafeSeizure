@@ -45,6 +45,14 @@ Sequence:
 
 (4) Regression
 
+## Deep Learning
+
+(1) Low- and high-pass filtering (60 Hz and 0.5 Hz respectively)
+
+(2) Convert time sequences to spectrograms (using Fast Fourier Transform)
+
+(3) CNN classification of spectrograms
+
 # Startup the project
 
 The initial setup.
