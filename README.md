@@ -3,6 +3,8 @@
 Safe Seizure is a machine/deep learning model aiming to predict brain seizures based on intracranial EEGs (Electro Encephalograms) from epileptic human patients.
 Being able to predict brain seizures may give epileptic patients enough time to safely anticipate their next seizure, potentially avoiding life-threatening consequences.
 
+Link to presentation -> https://www.canva.com/design/DAEiSbS_shA/c0jf8B3lhZuVd2dsCCBNOA/view?utm_content=DAEiSbS_shA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+
 # Data
 
 The data is sourced from the American Epilepsy Society Seizure Prediction Challenge on Kaggle: https://www.kaggle.com/c/seizure-prediction/data.
