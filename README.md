@@ -38,8 +38,11 @@ The first methodology used is machine-leanring based, following Al-Qerem et al. 
 Sequence:
 
 (1) Independent Component Analysis (using `FastICA`)
+
 (2) Discrete Wavelet Transform (using `pywvt`)
+
 (3) Feature extraction: `mean`, `average power`, `mean absolute value`, `Shannon entropy`
+
 (4) Regression
 
 # Startup the project
