@@ -35,8 +35,6 @@ Each folder contains three types of EEGs:
 
 The first methodology used is machine-leanring based, following Al-Qerem et al. 2020 (https://arxiv.org/pdf/2102.01647.pdf)
 
-Sequence:
-
 (1) Independent Component Analysis (using `FastICA`)
 
 (2) Discrete Wavelet Transform (using `pywvt`)
